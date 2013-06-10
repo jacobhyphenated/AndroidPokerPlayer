@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gson-2.2.4-sources">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/PokerPlayerClient/libs/gson-2.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

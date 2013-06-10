@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".PokerActivity">
+
+    <TextView
+            android:id="@+id/game_selection_page_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/join_game_label" />
+
+    <TextView
+            android:id="@+id/server_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_selection_page_label"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="40dp"
+            android:textSize="16sp"
+            android:text="@string/server_label" />
+
+    <EditText
+            android:id="@+id/txt_server_name"
+            android:layout_width="180dp"
+            android:layout_height="38dp"
+            android:layout_alignBaseline="@id/server_label"
+            android:layout_toRightOf="@id/server_label"
+            android:layout_marginLeft="16dp"
+            android:textSize="14sp"
+            android:inputType="textUri" />
+
+    <TextView
+            android:id="@+id/game_id_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/server_label"
+            android:layout_below="@id/server_label"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            android:text="@string/game_id_label" />
+
+    <EditText
+            android:id="@+id/txt_game_id"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:inputType="number"
+            android:layout_alignLeft="@id/txt_server_name"
+            android:layout_alignBaseline="@id/game_id_label" />
+
+    <TextView
+            android:id="@+id/player_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/game_id_label"
+            android:layout_below="@id/game_id_label"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            android:text="@string/player_name_label" />
+
+    <EditText
+            android:id="@+id/txt_player_name"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:inputType="text"
+            android:layout_alignLeft="@id/txt_game_id"
+            android:layout_alignBaseline="@id/player_name_label" />
+
+    <Button
+            android:id="@+id/btn_game_select"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/player_name_label"
+            android:layout_alignLeft="@id/server_label"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="enterGame"
+            android:text="@string/btn_submit" />
+
+    <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+</RelativeLayout>
