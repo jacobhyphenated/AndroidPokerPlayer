@@ -245,20 +245,8 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
         }
         serverConnectFailCount = 0;
 
-        TextView statusText = (TextView) findViewById(R.id.status_text);
-        statusText.setText(getString(playerStatus.getStatus().getStringResource()));
+        setupUI(playerStatus);
 
-        RelativeLayout cardLayout = (RelativeLayout) findViewById(R.id.cards_layout);
-        if(playerStatus.getCard1() != null){
-            cardLayout.setVisibility(ViewGroup.VISIBLE);
-        }
-        else{
-            cardLayout.setVisibility(ViewGroup.INVISIBLE);
-        }
-
-        setupBetFields(playerStatus);
-
-        ((TextView) findViewById(R.id.txt_chip_amount)).setText("" + playerStatus.getChips());
         lastPlayerStatus = playerStatus;
     }
 
@@ -271,11 +259,34 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
                     .setPositiveButton("OK", null)
                     .create().show();
         }
+        else{
+            //We have completed the action.  The next status update will bring more info,
+            //but for now, we know the action is no longer on us, so switch to waiting and update fields
+            lastPlayerStatus.setStatus(PlayerStatusType.WAITING);
+            setupUI(lastPlayerStatus);
+        }
 
-        //We have completed the action.  The next status update will bring more info,
-        //but for now, we know the action is no longer on us, so switch to waiting and update fields
-        lastPlayerStatus.setStatus(PlayerStatusType.WAITING);
-        setupBetFields(lastPlayerStatus);
+    }
+
+    //Helper for updating UI based on player status
+    private void setupUI(PlayerStatus playerStatus){
+        setupInfoFields(playerStatus);
+        setupBetFields(playerStatus);
+    }
+
+    //Set up player info, cards, chips, status, etc. based on player status
+    private void setupInfoFields(PlayerStatus playerStatus){
+        TextView statusText = (TextView) findViewById(R.id.status_text);
+        statusText.setText(getString(playerStatus.getStatus().getStringResource()));
+
+        RelativeLayout cardLayout = (RelativeLayout) findViewById(R.id.cards_layout);
+        if(playerStatus.getCard1() != null){
+            cardLayout.setVisibility(ViewGroup.VISIBLE);
+        }
+        else{
+            cardLayout.setVisibility(ViewGroup.INVISIBLE);
+        }
+        ((TextView) findViewById(R.id.txt_chip_amount)).setText("" + playerStatus.getChips());
     }
 
     //Helper method to layout and add default values for the bet/raise fields
