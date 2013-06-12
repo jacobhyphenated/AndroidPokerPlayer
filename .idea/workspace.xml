@@ -32,62 +32,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/ace_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/ace_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/ace_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/ace_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/card_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/eight_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/eight_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/eight_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/eight_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/five_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/five_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/five_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/five_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/four_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/four_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/four_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/four_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/jack_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/jack_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/jack_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/jack_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/king_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/king_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/king_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/king_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/nine_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/nine_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/nine_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/nine_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/queen_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/queen_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/queen_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/queen_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/seven_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/seven_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/seven_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/seven_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/six_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/six_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/six_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/six_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/ten_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/ten_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/ten_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/ten_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/three_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/three_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/three_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/three_spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/two_clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/two_diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/two_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/res/drawable-xhdpi/two_spades.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/ActionTask.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/ActionTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/concurrency/AsyncTask.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/concurrency/AsyncTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/BetTask.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/BetTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CallTask.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CallTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/Card.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CheckTask.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CheckTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/FoldTask.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/FoldTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/GameSelectionActivity.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/GameSelectionActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatus.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PlayerStatusHandler.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PlayerStatusHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/PlayerStatusTask.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/PlayerStatusTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatusType.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatusType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/PokerActivity.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/PokerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PokerNetworkService.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PokerNetworkService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/manager/PreferencesManager.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/manager/PreferencesManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RequestBuilder.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RequestBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RestObjectRequestBuilder.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RestObjectRequestBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RestRequestBuilder.java" afterPath="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RestRequestBuilder.java" />
     </list>
     <ignored path="PokerPlayerClient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,7 +58,7 @@
     <file path="/styles.xml" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370610608915" ignored="false" />
     <file path="/strings.xml" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370870708645" ignored="false" />
     <file path="/poker.xml" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370357072393" ignored="false" />
-    <file path="/PokerActivity.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370956827978" ignored="false" />
+    <file path="/PokerActivity.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370999830722" ignored="false" />
     <file path="/PreferencesManager.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370358739461" ignored="false" />
     <file path="/GameSelectionActivity.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370618103679" ignored="false" />
     <file path="/activity_game_selection.xml" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370444403405" ignored="false" />
@@ -115,7 +77,7 @@
     <file path="/a.dummy" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370612541564" ignored="false" />
     <file path="/AsyncTask.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370618335420" ignored="false" />
     <file path="/FoldTask.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370628341036" ignored="false" />
-    <file path="/ActionTask.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370628199030" ignored="false" />
+    <file path="/ActionTask.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370999653487" ignored="false" />
     <file path="/CheckTask.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370628439060" ignored="false" />
     <file path="/CallTask.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370629323714" ignored="false" />
     <file path="/BetTask.java" changelist="2dd33092-c2ae-45cf-ab0f-41fc05ef94df" time="1370873437285" ignored="false" />
@@ -183,76 +145,11 @@
       <file leaf-file-name="PokerActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/PokerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="263" column="43" selection-start="9930" selection-end="9930" vertical-scroll-proportion="0.9816233">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0045941807">
               <folding>
-                <element signature="e#3515#3573#0" expanded="true" />
-                <element signature="e#3775#3831#0" expanded="true" />
+                <element signature="e#4607#4665#0" expanded="true" />
+                <element signature="e#4867#4923#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BetTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/BetTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="54" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_poker.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/res/layout/activity_poker.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="38" selection-start="5270" selection-end="5270" vertical-scroll-proportion="-71.666664">
-              <folding>
-                <element signature="e#1086#1108#0" expanded="true" />
-                <element signature="e#1567#1589#0" expanded="true" />
-                <element signature="e#2022#2039#0" expanded="true" />
-                <element signature="e#2695#2710#0" expanded="true" />
-                <element signature="e#3971#3984#0" expanded="true" />
-                <element signature="e#4887#4906#0" expanded="true" />
-                <element signature="e#5214#5231#0" expanded="true" />
-                <element signature="e#5684#5702#0" expanded="true" />
-                <element signature="e#6010#6028#0" expanded="true" />
-                <element signature="e#6338#6357#0" expanded="true" />
-                <element signature="e#7042#7062#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_poker.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/res/layout-land/activity_poker.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="43" selection-start="629" selection-end="629" vertical-scroll-proportion="-7.2222223">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PokerNetworkService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PokerNetworkService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="25" selection-start="5688" selection-end="5688" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -275,22 +172,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/GameSelectionActivity.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CallTask.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CheckTask.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/FoldTask.java" />
         <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/PlayerStatusTask.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/GameSelectionActivity.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/PokerActivity.java" />
         <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/concurrency/AsyncTask.java" />
         <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/Card.java" />
         <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatus.java" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PokerNetworkService.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatusType.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/manager/PreferencesManager.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RequestBuilder.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RestObjectRequestBuilder.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RestRequestBuilder.java" />
         <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PlayerStatusHandler.java" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/ActionTask.java" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/FoldTask.java" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CheckTask.java" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CallTask.java" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/res/layout/activity_poker.xml" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/res/layout-land/activity_poker.xml" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/BetTask.java" />
-        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/PokerActivity.java" />
+        <option value="$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PokerNetworkService.java" />
       </list>
     </option>
   </component>
@@ -429,156 +326,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClientProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout-land" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClientProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClientProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClientProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClientProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerPlayerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -618,6 +365,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pokerplayerclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PokerPlayerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PokerPlayerClientProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PokerPlayerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pokerplayerclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PokerPlayerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PokerPlayerClientProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PokerPlayerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pokerplayerclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -724,6 +543,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PokerPlayerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PokerPlayerClientProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -928,12 +761,12 @@
       <updated>1370356170373</updated>
       <workItem from="1370356185821" duration="15716000" />
       <workItem from="1370434060653" duration="27511000" />
-      <workItem from="1370609816820" duration="25299000" />
+      <workItem from="1370609816820" duration="26747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68526000" />
+    <option name="totallyTimeSpent" value="69974000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -957,7 +790,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="801" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="110" y="122" width="1220" height="601" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -975,7 +808,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.6740088" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.6740088" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1047,43 +880,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/PlayerStatusTask.java">
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CallTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="46" selection-start="1678" selection-end="1678" vertical-scroll-proportion="1.4269141">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.5053599">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/concurrency/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="74" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.80046403">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1770#1780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="21" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.40835267">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="34" selection-start="676" selection-end="676" vertical-scroll-proportion="0.8700696">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/FoldTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="79" selection-start="203" selection-end="279" vertical-scroll-proportion="0.2088167">
-          <folding>
+            <element signature="e#0#1809#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1091,106 +892,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CheckTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="693" selection-end="693" vertical-scroll-proportion="0.6264501">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.5053599">
           <folding>
+            <element signature="e#0#1812#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/CallTask.java">
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/FoldTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="79" selection-start="203" selection-end="279" vertical-scroll-proportion="0.2088167">
+        <state line="0" column="0" selection-start="0" selection-end="1091" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="e#0#1808#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/PlayerStatusTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.5053599">
+          <folding>
+            <element signature="e#0#3016#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/GameSelectionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#3308:3700" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/concurrency/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-0.0045941807">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2862#2872#0" expanded="true" />
+            <element signature="e#6209#6239#0" expanded="true" />
+            <element signature="e#18747#18778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.5053599">
+          <folding>
+            <element signature="e#0#4979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.5053599">
+          <folding>
+            <element signature="e#0#3301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/domain/PlayerStatusType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.5053599">
+          <folding>
+            <element signature="e#0#2681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/manager/PreferencesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-0.0015313936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RestObjectRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/network/RestRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PlayerStatusHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="72" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/ActionTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="46" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/service/PokerNetworkService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="25" selection-start="5688" selection-end="5688" vertical-scroll-proportion="0.0">
+        <state line="22" column="3" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-0.0030627872">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/build/res/all/debug/layout-land/activity_poker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="47" selection-start="122" selection-end="122" vertical-scroll-proportion="0.034965035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/res/layout/activity_poker.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="38" selection-start="5270" selection-end="5270" vertical-scroll-proportion="-71.666664">
-          <folding>
-            <element signature="e#1086#1108#0" expanded="true" />
-            <element signature="e#1567#1589#0" expanded="true" />
-            <element signature="e#2022#2039#0" expanded="true" />
-            <element signature="e#2695#2710#0" expanded="true" />
-            <element signature="e#3971#3984#0" expanded="true" />
-            <element signature="e#4887#4906#0" expanded="true" />
-            <element signature="e#5214#5231#0" expanded="true" />
-            <element signature="e#5684#5702#0" expanded="true" />
-            <element signature="e#6010#6028#0" expanded="true" />
-            <element signature="e#6338#6357#0" expanded="true" />
-            <element signature="e#7042#7062#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/res/layout-land/activity_poker.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="629" selection-end="629" vertical-scroll-proportion="-7.2222223">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/Task/BetTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PokerPlayerClient/src/main/java/com/hyphenated/pokerplayerclient/activity/PokerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="43" selection-start="9930" selection-end="9930" vertical-scroll-proportion="0.9816233">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0045941807">
           <folding>
-            <element signature="e#3515#3573#0" expanded="true" />
-            <element signature="e#3775#3831#0" expanded="true" />
+            <element signature="e#4607#4665#0" expanded="true" />
+            <element signature="e#4867#4923#0" expanded="true" />
           </folding>
         </state>
       </provider>
