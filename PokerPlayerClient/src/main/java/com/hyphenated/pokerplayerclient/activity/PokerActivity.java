@@ -275,6 +275,8 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
         }
         serverConnectFailCount = 0;
 
+        //TODO vibrate on action time, setting to turn on/off
+
         setupUI(playerStatus);
 
         lastPlayerStatus = playerStatus;
