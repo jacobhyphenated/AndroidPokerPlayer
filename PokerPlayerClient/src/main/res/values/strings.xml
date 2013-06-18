@@ -44,4 +44,15 @@
     <string name="sit_out">Out of Hand</string>
     <string name="eliminated">Out of Game</string>
 
+    <!-- Alert View Strings -->
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="not_allowed">This action is not allowed.</string>
+    <string name="server_error">Oops. server error</string>
+    <string name="no_connection">Cannot connect to server</string>
+    <string name="bad_bet">Invalid Bet Amount</string>
+    <string name="bad_field">Invalid field entry.</string>
+    <string name="no_join">Could not join the game.</string>
+
 </resources>

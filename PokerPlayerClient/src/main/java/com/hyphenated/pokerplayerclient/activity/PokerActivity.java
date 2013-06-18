@@ -206,7 +206,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
             betText.setText("0");
         }
         catch (Exception e){
-            Toast.makeText(this, "Invalid Bet Amount", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.bad_bet), Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -263,13 +263,13 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
             serverConnectFailCount++;
             //If we fail connecting to the server enough times, shut it down
             if(serverConnectFailCount > 3){
-                new AlertDialog.Builder(this).setTitle("Error")
-                        .setMessage("Cannot connect to server")
-                        .setPositiveButton("OK", null).create().show();
+                new AlertDialog.Builder(this).setTitle(getString(R.string.error))
+                        .setMessage(getString(R.string.no_connection))
+                        .setPositiveButton(getString(R.string.ok), null).create().show();
                 statusUpdateTimer.cancel(true);
             }
             else{
-                Toast.makeText(this, "Oops. server error.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getString(R.string.server_error), Toast.LENGTH_SHORT).show();
             }
             return;
         }
@@ -286,9 +286,9 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     public void actionResponse(boolean success) {
         if(!success){
             new AlertDialog.Builder(this)
-                    .setTitle("Warning")
-                    .setMessage("This action is not allowed.")
-                    .setPositiveButton("OK", null)
+                    .setTitle(getString(R.string.warning))
+                    .setMessage(getString(R.string.not_allowed))
+                    .setPositiveButton(getString(R.string.ok), null)
                     .create().show();
         }
         else{

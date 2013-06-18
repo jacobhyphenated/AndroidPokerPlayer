@@ -163,7 +163,7 @@ public class GameSelectionActivity extends Activity{
             joinGameTask.execute();
         }
         catch (Exception e){
-            Toast.makeText(this, "Invalid field entry.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.bad_field), Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -244,9 +244,9 @@ public class GameSelectionActivity extends Activity{
             //Generic error handling for now
             if(result <= 0){
                 new AlertDialog.Builder(GameSelectionActivity.this)
-                    .setTitle("Error")
-                    .setMessage("Could not join the game.")
-                    .setPositiveButton("OK", null)
+                    .setTitle(getString(R.string.error))
+                    .setMessage(getString(R.string.no_join))
+                    .setPositiveButton(getString(R.string.ok), null)
                     .create()
                     .show();
                 checkEnabledSubmit();
