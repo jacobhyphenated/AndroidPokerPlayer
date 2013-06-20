@@ -27,6 +27,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -88,6 +89,9 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
 
         card1Shown = false;
         card2Shown = false;
+
+        //As long as the status view is on screen, do not sleep
+        ((TextView) findViewById(R.id.status_text)).setKeepScreenOn(true);
 
         EditText betAmountField = (EditText) findViewById(R.id.input_bet_amount);
         betAmountField.addTextChangedListener(new TextWatcher() {
@@ -275,8 +279,6 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
         }
         serverConnectFailCount = 0;
 
-        //TODO vibrate on action time, setting to turn on/off
-
         setupUI(playerStatus);
 
         lastPlayerStatus = playerStatus;
@@ -302,6 +304,27 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
 
     //Helper for updating UI based on player status
     private void setupUI(PlayerStatus playerStatus){
+        //If the cards change, and the cards are being shown, hide the cards
+        //Use this to make sure new dealt cards are not immediately displayed
+        if(lastPlayerStatus != null && playerStatus.getCard1() != lastPlayerStatus.getCard1() && card1Shown){
+            showCard1(null);
+        }
+        if(lastPlayerStatus != null && playerStatus.getCard2() != lastPlayerStatus.getCard2() && card2Shown){
+            showCard2(null);
+        }
+
+        /*Lots of if logic here.  Basically, if the previous status was not already an ACTION status
+          and the current status is an ACTION status, vibrate.
+          To put it another way, vibrate when it is the player's turn to act.*/
+        if((lastPlayerStatus == null || lastPlayerStatus.getStatus() == null ||
+                (lastPlayerStatus.getStatus() != PlayerStatusType.ACTION_TO_CALL &&
+                lastPlayerStatus.getStatus() != PlayerStatusType.ACTION_TO_CHECK) )
+                && (playerStatus.getStatus() == PlayerStatusType.ACTION_TO_CALL ||
+                playerStatus.getStatus() == PlayerStatusType.ACTION_TO_CHECK)){
+            Vibrator v = (Vibrator) getSystemService(this.VIBRATOR_SERVICE);
+            v.vibrate(600);
+        }
+
         setupInfoFields(playerStatus);
         setupBetFields(playerStatus);
     }
