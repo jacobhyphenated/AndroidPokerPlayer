@@ -37,6 +37,7 @@ public class PreferencesManager {
     private static final String SERVER_KEY = "Field1";
     private static final String GAME_ID_KEY = "Field2";
     private static final String PLAYER_ID_KEY = "Field3";
+    private static final String VIBRATE_KEY = "vibrate_allowed";
 
     /**
      * Get the Server Name from the stored preferences
@@ -101,6 +102,28 @@ public class PreferencesManager {
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
         SharedPreferences.Editor editor = pref.edit();
         editor.putLong(PLAYER_ID_KEY, playerId);
+        editor.commit();
+    }
+
+    /**
+     * Get the user setting that checks if vibration is allowed
+     * @param ctx Context
+     * @return true if vibrate is enabled (default), false if vibration is disabled.
+     */
+    public static boolean isVibrateEnabled(Context ctx){
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
+        return pref.getBoolean(VIBRATE_KEY, true);
+    }
+
+    /**
+     * Set the user setting to enable/disable vibration
+     * @param vibrateEnabled should vibration be enabled
+     * @param ctx context
+     */
+    public static void setVibrateEnabled(boolean vibrateEnabled, Context ctx){
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putBoolean(VIBRATE_KEY, vibrateEnabled);
         editor.commit();
     }
 }

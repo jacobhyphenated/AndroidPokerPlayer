@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name" >PokerPlayerClient</string>
-    <string name="action_settings" >Settings</string>
+    <string name="app_name">PokerPlayerClient</string>
+    <string name="action_settings">Settings</string>
     <string name="action_leave_game">Leave Game</string>
-    <string name="hello_world" >Hello world!</string>
+    <string name="hello_world">Hello world!</string>
 
     <!-- Game Selection Strings -->
     <string name="server_label">Server Address:</string>
@@ -54,5 +54,10 @@
     <string name="bad_bet">Invalid Bet Amount</string>
     <string name="bad_field">Invalid field entry.</string>
     <string name="no_join">Could not join the game.</string>
+
+    <!-- settings -->
+    <string name="settings_title">Settings</string>
+    <string name="vibrate_setting">Enable Vibration</string>
+    <string name="title_activity_settings"></string>
 
 </resources>

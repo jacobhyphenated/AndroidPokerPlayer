@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+            android:id="@+id/settings_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/settings_title"/>
+
+    <TextView
+            android:id="@+id/vibrate_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/settings_title"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:text="@string/vibrate_setting" />
+
+    <CheckBox
+            android:id="@+id/vibrate_checkbox"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignBaseline="@id/vibrate_label"
+            android:layout_toRightOf="@id/vibrate_label"
+            android:layout_marginLeft="16dp"/>
+
+
+</RelativeLayout>

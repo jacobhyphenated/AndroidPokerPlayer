@@ -145,7 +145,9 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     @Override
     protected void onPause() {
         super.onPause();
-        statusUpdateTimer.cancel(true);
+        if(statusUpdateTimer != null){
+            statusUpdateTimer.cancel(true);
+        }
         if(playerStatusTask != null){
             playerStatusTask.setPlayerStatusHandler(null);
             playerStatusTask.cancel(true);
@@ -402,18 +404,18 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
             case R.id.action_settings:
-                Toast.makeText(this, "Show Settings Menu", Toast.LENGTH_SHORT).show();
-                return true;
-            //TODO Settings
+                startActivity(new Intent(this, SettingsActivity.class));
+                break;
             case R.id.action_leave:
                 //Clear game settings, playerId, gameId, and launch selection screen
                 PreferencesManager.setGameId(0l, this);
                 PreferencesManager.setPlayerId(0l, this);
                 startActivityForResult(new Intent(this, GameSelectionActivity.class), GAME_SELECTION_REQUEST);
-                return true;
+                break;
             default:
                 return super.onOptionsItemSelected(item);
         }
+        return true;
     }
 
     //Helper class.  Runs on a separate thread on a loop. Every specified interval,
