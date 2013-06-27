@@ -88,9 +88,9 @@ public class PreferencesManager {
      * @param ctx context
      * @return player id
      */
-    public static long getPlayerId(Context ctx){
+    public static String getPlayerId(Context ctx){
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
-        return pref.getLong(PLAYER_ID_KEY, 0);
+        return pref.getString(PLAYER_ID_KEY, null);
     }
 
     /**
@@ -98,10 +98,10 @@ public class PreferencesManager {
      * @param playerId unique id
      * @param ctx context
      */
-    public static void setPlayerId(Long playerId, Context ctx){
+    public static void setPlayerId(String playerId, Context ctx){
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(ctx);
         SharedPreferences.Editor editor = pref.edit();
-        editor.putLong(PLAYER_ID_KEY, playerId);
+        editor.putString(PLAYER_ID_KEY, playerId);
         editor.commit();
     }
 

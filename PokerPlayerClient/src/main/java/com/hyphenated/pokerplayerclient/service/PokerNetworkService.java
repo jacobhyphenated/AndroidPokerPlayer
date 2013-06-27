@@ -75,7 +75,7 @@ public class PokerNetworkService {
      * to this player client. It will be used in subsequent server requests.  Returns 0 if
      * there was a failure at some point, including a server error.
      */
-    public long joinGame(String serverName, String playerName, long gameId){
+    public String joinGame(String serverName, String playerName, long gameId){
         String uri = "/join";
 
         RestObjectRequestBuilder request = new RestObjectRequestBuilder();
@@ -83,11 +83,11 @@ public class PokerNetworkService {
         request.addParameter("gameId", gameId);
         request.addParameter("playerName", playerName);
         try{
-            return request.sendRequest().getLong("playerId");
+            return request.sendRequest().getString("playerId");
         }
         catch (Exception e){
             Log.e("Poker", "Exception: " + e.getMessage());
-            return 0;
+            return null;
         }
     }
 
@@ -98,7 +98,7 @@ public class PokerNetworkService {
      * @param playerId unique ID for the player
      * @return {@link PlayerStatus} Object that represents the player's status
      */
-    public PlayerStatus status(String serverName, long gameId, long playerId){
+    public PlayerStatus status(String serverName, long gameId, String playerId){
         String uri = "/status";
 
         RestObjectRequestBuilder request = new RestObjectRequestBuilder();
@@ -123,7 +123,7 @@ public class PokerNetworkService {
      * @param playerId player id
      * @return true if the hand was folded.  False otherwise
      */
-    public boolean fold(String serverName, long gameId, long playerId){
+    public boolean fold(String serverName, long gameId, String playerId){
         String uri = "/fold";
 
         RestObjectRequestBuilder request = new RestObjectRequestBuilder();
@@ -145,7 +145,7 @@ public class PokerNetworkService {
      * @param playerId player id
      * @return true if the check was successful, false otherwise
      */
-    public boolean check(String serverName, long gameId, long playerId){
+    public boolean check(String serverName, long gameId, String playerId){
         String uri = "/check";
 
         RestObjectRequestBuilder request = new RestObjectRequestBuilder();
@@ -167,7 +167,7 @@ public class PokerNetworkService {
      * @param playerId player id
      * @return true if the bet was called, false otherwise
      */
-    public boolean call(String serverName, long gameId, long playerId){
+    public boolean call(String serverName, long gameId, String playerId){
         String uri = "/call";
 
         RestObjectRequestBuilder request = new RestObjectRequestBuilder();
@@ -191,7 +191,7 @@ public class PokerNetworkService {
      *                  the additional amount beyond what was needed to call
      * @return true if the bet was successful, false otherwise
      */
-    public boolean bet(String serverName, long gameId, long playerId, int betAmount){
+    public boolean bet(String serverName, long gameId, String playerId, int betAmount){
         String uri = "/bet";
 
         RestObjectRequestBuilder request = new RestObjectRequestBuilder();

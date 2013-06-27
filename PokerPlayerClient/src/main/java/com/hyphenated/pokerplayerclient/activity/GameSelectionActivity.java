@@ -222,7 +222,7 @@ public class GameSelectionActivity extends Activity{
 
     //Private Helper Async Task class
     //Used to do the network service call to join the game
-    private class JoinGameTask extends AsyncTask<Void,Void,Long> {
+    private class JoinGameTask extends AsyncTask<Void,Void,String> {
 
         private String playerName;
         private Long gameId;
@@ -235,14 +235,14 @@ public class GameSelectionActivity extends Activity{
         }
 
         @Override
-        protected Long doInBackground(Void... params){
+        protected String doInBackground(Void... params){
             return PokerNetworkService.getInstance().joinGame(serverName, playerName, gameId);
         }
 
         @Override
-        protected void onPostExecute(Long result){
+        protected void onPostExecute(String result){
             //Generic error handling for now
-            if(result <= 0){
+            if(result == null){
                 new AlertDialog.Builder(GameSelectionActivity.this)
                     .setTitle(getString(R.string.error))
                     .setMessage(getString(R.string.no_join))

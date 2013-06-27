@@ -33,7 +33,7 @@ import com.hyphenated.pokerplayerclient.service.PokerNetworkService;
  */
 public class CallTask extends ActionTask {
 
-    public CallTask(String serverName, long gameId, long playerId, PlayerStatusHandler playerHandler){
+    public CallTask(String serverName, long gameId, String playerId, PlayerStatusHandler playerHandler){
         super(serverName, gameId, playerId, playerHandler);
     }
 

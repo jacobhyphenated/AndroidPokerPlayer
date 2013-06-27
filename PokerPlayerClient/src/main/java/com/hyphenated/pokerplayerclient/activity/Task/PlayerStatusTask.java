@@ -43,10 +43,10 @@ public class PlayerStatusTask extends AsyncTask<Void, Void, PlayerStatus> {
 
     private String serverName;
     private long gameId;
-    private long playerId;
+    private String playerId;
     private PlayerStatusHandler playerStatusHandler;
 
-    public PlayerStatusTask(String serverName, long gameId, long playerId,
+    public PlayerStatusTask(String serverName, long gameId, String playerId,
                             PlayerStatusHandler playerStatusHandler){
         this.serverName = serverName;
         this.gameId = gameId;

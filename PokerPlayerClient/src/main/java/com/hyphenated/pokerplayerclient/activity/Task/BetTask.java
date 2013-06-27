@@ -35,7 +35,7 @@ public class BetTask extends ActionTask {
 
     protected int betAmount;
 
-    public BetTask(String serverName, long gameId, long playerId, PlayerStatusHandler playerHandler,
+    public BetTask(String serverName, long gameId, String playerId, PlayerStatusHandler playerHandler,
             int betAmount){
         super(serverName, gameId, playerId, playerHandler);
         this.betAmount = betAmount;

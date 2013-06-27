@@ -63,13 +63,14 @@ import com.hyphenated.pokerplayerclient.service.PlayerStatusHandler;
 public class PokerActivity extends Activity implements PlayerStatusHandler{
 
     public static final int GAME_SELECTION_REQUEST = 8009;
-    public static final long UPDATE_SLEEP_TIME = 5000;
+    public static final long UPDATE_SLEEP_TIME = 4000;
 
     private boolean isFinished;
     private PlayerStatusTask playerStatusTask;
     private StatusUpdateTimer statusUpdateTimer;
     private ActionTask currentAction;
     private int serverConnectFailCount;
+    private AlertDialog serverErrorDialog;
 
     private PlayerStatus lastPlayerStatus;
     private boolean card1Shown;
@@ -91,7 +92,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
         card2Shown = false;
 
         //As long as the status view is on screen, do not sleep
-        ((TextView) findViewById(R.id.status_text)).setKeepScreenOn(true);
+        findViewById(R.id.status_text).setKeepScreenOn(true);
 
         EditText betAmountField = (EditText) findViewById(R.id.input_bet_amount);
         betAmountField.addTextChangedListener(new TextWatcher() {
@@ -132,7 +133,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
         if(isFinished){
             return;
         }
-        if(PreferencesManager.getGameId(this) == 0 || PreferencesManager.getPlayerId(this) == 0
+        if(PreferencesManager.getGameId(this) == 0 || PreferencesManager.getPlayerId(this) == null
                 || PreferencesManager.getServerName(this) == null){
             startActivityForResult(new Intent(this, GameSelectionActivity.class), GAME_SELECTION_REQUEST);
         }
@@ -179,7 +180,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     public void fold(View v){
         String serverName = PreferencesManager.getServerName(this);
         long gameId = PreferencesManager.getGameId(this);
-        long playerId = PreferencesManager.getPlayerId(this);
+        String playerId = PreferencesManager.getPlayerId(this);
         currentAction = new FoldTask(serverName, gameId, playerId, this);
         currentAction.execute();
     }
@@ -187,7 +188,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     public void check(View v){
         String serverName = PreferencesManager.getServerName(this);
         long gameId = PreferencesManager.getGameId(this);
-        long playerId = PreferencesManager.getPlayerId(this);
+        String playerId = PreferencesManager.getPlayerId(this);
         currentAction = new CheckTask(serverName, gameId, playerId, this);
         currentAction.execute();
     }
@@ -195,7 +196,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     public void call(View v){
         String serverName = PreferencesManager.getServerName(this);
         long gameId = PreferencesManager.getGameId(this);
-        long playerId = PreferencesManager.getPlayerId(this);
+        String playerId = PreferencesManager.getPlayerId(this);
         currentAction = new CallTask(serverName, gameId, playerId, this);
         currentAction.execute();
     }
@@ -203,7 +204,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     public void bet(View v){
         String serverName = PreferencesManager.getServerName(this);
         long gameId = PreferencesManager.getGameId(this);
-        long playerId = PreferencesManager.getPlayerId(this);
+        String playerId = PreferencesManager.getPlayerId(this);
         EditText betText = (EditText) findViewById(R.id.input_bet_amount);
         try{
             int betAmount = Integer.parseInt(betText.getText().toString());
@@ -269,9 +270,14 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
             serverConnectFailCount++;
             //If we fail connecting to the server enough times, shut it down
             if(serverConnectFailCount > 3){
-                new AlertDialog.Builder(this).setTitle(getString(R.string.error))
+                if(serverErrorDialog != null){
+                    serverErrorDialog.dismiss();
+                }
+                serverErrorDialog = new AlertDialog.Builder(this)
+                        .setTitle(getString(R.string.error))
                         .setMessage(getString(R.string.no_connection))
-                        .setPositiveButton(getString(R.string.ok), null).create().show();
+                        .setPositiveButton(getString(R.string.ok), null).create();
+                serverErrorDialog.show();
                 statusUpdateTimer.cancel(true);
             }
             else{
@@ -323,7 +329,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
                 lastPlayerStatus.getStatus() != PlayerStatusType.ACTION_TO_CHECK) )
                 && (playerStatus.getStatus() == PlayerStatusType.ACTION_TO_CALL ||
                 playerStatus.getStatus() == PlayerStatusType.ACTION_TO_CHECK)){
-            Vibrator v = (Vibrator) getSystemService(this.VIBRATOR_SERVICE);
+            Vibrator v = (Vibrator) getSystemService(Activity.VIBRATOR_SERVICE);
             v.vibrate(600);
         }
 
@@ -383,7 +389,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     //Helper method that starts the background thread to update the player status
     private void sendPlayerStatusRequest(){
         long gameId = PreferencesManager.getGameId(this);
-        long playerId = PreferencesManager.getPlayerId(this);
+        String playerId = PreferencesManager.getPlayerId(this);
         String serverName = PreferencesManager.getServerName(this);
         if(playerStatusTask != null){
             playerStatusTask.setPlayerStatusHandler(null);
@@ -409,7 +415,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
             case R.id.action_leave:
                 //Clear game settings, playerId, gameId, and launch selection screen
                 PreferencesManager.setGameId(0l, this);
-                PreferencesManager.setPlayerId(0l, this);
+                PreferencesManager.setPlayerId(null, this);
                 startActivityForResult(new Intent(this, GameSelectionActivity.class), GAME_SELECTION_REQUEST);
                 break;
             default:

@@ -33,7 +33,7 @@ import com.hyphenated.pokerplayerclient.service.PokerNetworkService;
  */
 public class FoldTask extends ActionTask {
 
-    public FoldTask(String serverName, long gameId, long playerId, PlayerStatusHandler playerHandler){
+    public FoldTask(String serverName, long gameId, String playerId, PlayerStatusHandler playerHandler){
         super(serverName,gameId, playerId, playerHandler);
     }
 

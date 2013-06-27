@@ -34,10 +34,10 @@ import com.hyphenated.pokerplayerclient.service.PlayerStatusHandler;
 public abstract class ActionTask extends AsyncTask<Void,Void,Boolean> {
     protected String serverName;
     protected long gameId;
-    protected long playerId;
+    protected String playerId;
     protected PlayerStatusHandler playerHandler;
 
-    public ActionTask(String serverName, long gameId, long playerId, PlayerStatusHandler playerHandler){
+    public ActionTask(String serverName, long gameId, String playerId, PlayerStatusHandler playerHandler){
         this.serverName = serverName;
         this.gameId = gameId;
         this.playerId = playerId;
