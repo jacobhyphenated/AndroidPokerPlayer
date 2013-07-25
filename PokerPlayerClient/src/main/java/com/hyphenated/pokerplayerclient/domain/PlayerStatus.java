@@ -41,6 +41,8 @@ public class PlayerStatus {
     private int chips;
     private int amountBetRound;
     private int amountToCall;
+    private int smallBlind;
+    private int bigBlind;
 
     public PlayerStatus(){
 
@@ -61,6 +63,12 @@ public class PlayerStatus {
             }
             if(json.has("amountToCall")){
                 this.amountToCall = json.getInt("amountToCall");
+            }
+            if(json.has("smallBlind")){
+                this.smallBlind = json.getInt("smallBlind");
+            }
+            if(json.has("bigBlind")){
+                this.bigBlind = json.getInt("bigBlind");
             }
         } catch (JSONException e) {
             Log.e("Poker", e.getMessage());
@@ -113,5 +121,21 @@ public class PlayerStatus {
 
     public void setAmountToCall(int amountToCall) {
         this.amountToCall = amountToCall;
+    }
+
+    public int getSmallBlind() {
+        return smallBlind;
+    }
+
+    public void setSmallBlind(int smallBlind) {
+        this.smallBlind = smallBlind;
+    }
+
+    public int getBigBlind() {
+        return bigBlind;
+    }
+
+    public void setBigBlind(int bigBlind) {
+        this.bigBlind = bigBlind;
     }
 }

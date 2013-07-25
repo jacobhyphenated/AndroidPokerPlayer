@@ -43,6 +43,7 @@
     <string name="action_check">Check or Bet</string>
     <string name="sit_out">Out of Hand</string>
     <string name="eliminated">Out of Game</string>
+    <string name="sit_out_game">Sitting Out</string>
 
     <!-- Alert View Strings -->
     <string name="warning">Warning</string>

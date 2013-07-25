@@ -112,6 +112,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
                 int amountToCall = 0;
                 if(lastPlayerStatus != null){
                     amountToCall = lastPlayerStatus.getAmountToCall();
+                    amountToCall += lastPlayerStatus.getAmountBetRound();
                 }
                 Button raiseButton = (Button) findViewById(R.id.btn_raise);
                 raiseButton.setText(String.format(
@@ -249,7 +250,10 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
         EditText betAmountField = (EditText) findViewById(R.id.input_bet_amount);
         int amountToCall = lastPlayerStatus.getAmountToCall();
         if(amountToCall != 0){
-            betAmountField.setText("" + amountToCall * 2);
+            betAmountField.setText("" + (amountToCall + lastPlayerStatus.getAmountBetRound() ) * 2);
+        }else{
+            Log.d("Poker Android", "Big Blind: " + lastPlayerStatus.getBigBlind());
+            betAmountField.setText("" + lastPlayerStatus.getBigBlind() * 3);
         }
     }
 
@@ -257,7 +261,10 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
         EditText betAmountField = (EditText) findViewById(R.id.input_bet_amount);
         int amountToCall = lastPlayerStatus.getAmountToCall();
         if(amountToCall != 0){
-            betAmountField.setText("" + amountToCall * 3);
+            betAmountField.setText("" + (amountToCall + lastPlayerStatus.getAmountBetRound() ) * 3);
+        }else{
+            Log.d("Poker Android", "Big Blind: " + lastPlayerStatus.getBigBlind());
+            betAmountField.setText("" + lastPlayerStatus.getBigBlind() * 4);
         }
     }
 
@@ -305,6 +312,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
             //We have completed the action.  The next status update will bring more info,
             //but for now, we know the action is no longer on us, so switch to waiting and update fields
             lastPlayerStatus.setStatus(PlayerStatusType.WAITING);
+            ((EditText) findViewById(R.id.input_bet_amount)).setText("" + lastPlayerStatus.getBigBlind());
             setupUI(lastPlayerStatus);
         }
 
@@ -340,7 +348,14 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
     //Set up player info, cards, chips, status, etc. based on player status
     private void setupInfoFields(PlayerStatus playerStatus){
         TextView statusText = (TextView) findViewById(R.id.status_text);
-        statusText.setText(getString(playerStatus.getStatus().getStringResource()));
+        String statusString = getString(playerStatus.getStatus().getStringResource());
+        if(playerStatus.getStatus() == PlayerStatusType.POST_SB){
+            statusString += " (" + playerStatus.getSmallBlind() + ")";
+        }
+        else if(playerStatus.getStatus() == PlayerStatusType.POST_BB){
+            statusString += " (" + playerStatus.getBigBlind() + ")";
+        }
+        statusText.setText(statusString);
 
         RelativeLayout cardLayout = (RelativeLayout) findViewById(R.id.cards_layout);
         if(playerStatus.getCard1() != null){
@@ -382,7 +397,7 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
 
         EditText betAmount = (EditText) findViewById(R.id.input_bet_amount);
         if(betAmount.getText().toString().equals("0") || betAmount.getText().toString().equals("")){
-            betAmount.setText("" + playerStatus.getAmountToCall());
+            betAmount.setText("" + Math.max(playerStatus.getAmountToCall(), playerStatus.getBigBlind()));
         }
     }
 

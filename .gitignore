@@ -21,3 +21,4 @@ local.properties
 
 #Android Studio Files (still not 100% on which files to exclude)
 .idea/workspace.xml
+.gradle/

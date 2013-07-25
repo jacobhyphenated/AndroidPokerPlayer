@@ -7,9 +7,9 @@ This is a basic android app that will give a player full functionality and contr
 
 Version
 ----
-This application will work with Android Gingerbread (API 9).  The targeted OS is Jellybean (API 17).
+This application will work with Android Gingerbread (API 10).  The targeted OS is Jellybean (API 17).
 
-This application is designed to work with Poker Server API Version 0.3. This is subject to change.
+This application is designed to work with Poker Server API Version 0.5. This is subject to change.
 
 Development
 -----

@@ -54,7 +54,9 @@ public enum PlayerStatusType {
     /** The Player is still in the game but not in the hand. */
     SIT_OUT(R.string.sit_out),
     /** The Player is no longer in the game.  */
-    ELIMINATED(R.string.eliminated);
+    ELIMINATED(R.string.eliminated),
+    /** Player is "Sitting Out" or is away from the table. Still in the game but not participating */
+    SIT_OUT_GAME(R.string.sit_out_game);
 
     private int displayString;
 
