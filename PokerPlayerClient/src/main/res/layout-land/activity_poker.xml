@@ -207,4 +207,20 @@
 
     </LinearLayout>
 
+    <RelativeLayout
+            android:id="@+id/sit_out_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/chips_layout"
+            android:visibility="gone">
+
+        <Button
+                android:id="@+id/btn_sit_in"
+                style="@style/sitInButton"
+                android:text="@string/btn_sit_in"
+                android:onClick="sitIn"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>

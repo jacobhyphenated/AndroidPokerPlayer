@@ -206,4 +206,19 @@ public class PokerNetworkService {
             return false;
         }
     }
+
+    public boolean sitIn(String serverName, long gameId, String playerId){
+        String uri = "/sitin";
+
+        RestObjectRequestBuilder request = new RestObjectRequestBuilder();
+        request.setURL(serverName + uri);
+        request.addParameter("gameId", gameId);
+        request.addParameter("playerId", playerId);
+        try{
+            return request.sendRequest().getBoolean("success");
+        }
+        catch (Exception e){
+            return false;
+        }
+    }
 }

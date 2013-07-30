@@ -29,6 +29,7 @@
     <string name="btn_raise_formatted">Raise To\n%s</string>
     <string name="btn_3x">3x</string>
     <string name="btn_4x">4x</string>
+    <string name="btn_sit_in">Sit In</string>
 
     <!-- Player Status Strings -->
     <string name="not_started">Waiting For Game to Start</string>

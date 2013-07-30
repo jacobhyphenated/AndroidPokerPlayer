@@ -49,6 +49,7 @@ import com.hyphenated.pokerplayerclient.activity.Task.CallTask;
 import com.hyphenated.pokerplayerclient.activity.Task.CheckTask;
 import com.hyphenated.pokerplayerclient.activity.Task.FoldTask;
 import com.hyphenated.pokerplayerclient.activity.Task.PlayerStatusTask;
+import com.hyphenated.pokerplayerclient.activity.Task.SitInTask;
 import com.hyphenated.pokerplayerclient.concurrency.AsyncTask;
 import com.hyphenated.pokerplayerclient.domain.PlayerStatus;
 import com.hyphenated.pokerplayerclient.domain.PlayerStatusType;
@@ -63,7 +64,7 @@ import com.hyphenated.pokerplayerclient.service.PlayerStatusHandler;
 public class PokerActivity extends Activity implements PlayerStatusHandler{
 
     public static final int GAME_SELECTION_REQUEST = 8009;
-    public static final long UPDATE_SLEEP_TIME = 4000;
+    public static final long UPDATE_SLEEP_TIME = 3000;
 
     private boolean isFinished;
     private PlayerStatusTask playerStatusTask;
@@ -218,6 +219,14 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
         }
     }
 
+    public void sitIn(View v){
+        String serverName = PreferencesManager.getServerName(this);
+        long gameId = PreferencesManager.getGameId(this);
+        String playerId = PreferencesManager.getPlayerId(this);
+        currentAction = new SitInTask(serverName, gameId, playerId, this);
+        currentAction.execute();
+    }
+
     public void showCard1(View v){
         if(lastPlayerStatus == null || lastPlayerStatus.getCard1() == null ){
             return;
@@ -343,6 +352,13 @@ public class PokerActivity extends Activity implements PlayerStatusHandler{
 
         setupInfoFields(playerStatus);
         setupBetFields(playerStatus);
+
+        View sitOutLayout = findViewById(R.id.sit_out_layout);
+        if(playerStatus.getStatus() == PlayerStatusType.SIT_OUT_GAME){
+            sitOutLayout.setVisibility(ViewGroup.VISIBLE);
+        }else{
+            sitOutLayout.setVisibility(ViewGroup.GONE);
+        }
     }
 
     //Set up player info, cards, chips, status, etc. based on player status
